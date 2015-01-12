@@ -32,6 +32,30 @@ Notes:	 Hand coded for Udemy.com
      padding:13px 15px; /*left top right bottom*/
    }
 
+   /* --------------------------------------
+   Fun Body
+   -------------------------------------- */
+   body {
+     background:#c41a50;
+     background-pattern:
+   }
+.hindi-fun p{
+     font-family:'Laila',serif;
+     padding-top:300px;
+     font-size: 50px;
+     text-align:center;
+
+   }
+
+.hindi-fun h5{
+     font-family:'Laila',serif;
+     text-align:center;
+
+}
+   .hindi-button{
+     text-align:center;
+   }
+
 
 /* --------------------------------------
    Carousel
@@ -42,7 +66,10 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
+.alert{
+  margin-top:20px;
+  display: none;
+}
 
 
 /* --------------------------------------
