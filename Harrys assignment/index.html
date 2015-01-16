@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+	  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container" id="main">
+
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your logo"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+
+						<ul class="nav navbar-nav">
+
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Create free techpacks</a>
+
+									</li>
+
+									<li>
+										<a href="#">Manage product development</a>
+
+									</li>
+
+									<li>
+										<a href="#">Technical services</a>
+
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">
+										More Services
+									</li>
+
+									<li>
+										<a href="#">Free samples</a>
+
+									</li>
+
+									<li>
+										<a href="#">Find factories</a>
+
+									</li>
+								</ul><!--end dropdown-menu-->
+							</li>
+						</ul><!--end nav navbar-nav-->
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchinput">
+
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+						</form><!--end navbar-form-->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
+									</li>
+
+
+								</ul><!--end dropdown-menu-->
+							</li>
+
+						</ul><!--end nav pull-right-->
+
+					</div><!--end nav-collapse-->
+
+				</div><!--end container-->
+			</div><!--end navbar-->
+
+
+			<div class="carousel slide" id="myCarousel">
+
+				<!--Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!--wrapper for slides -->
+
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Faster Sampling</h4>
+							<p>Techpacker reduces the sampling time so your brand gets the lastest fashion in store faster then your competitors!</p>
+						</div><!--end carousel-caption-->
+					</div><!--end item-->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Reduce Product Cost</h4>
+							<p>With effective communication and fewer defects in product development and production, you are guranteed to save on actual product cost ! </p>
+						</div><!--end carousel-caption-->
+					</div><!--end item-->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Manage Anything, Anywhere</h4>
+							<p>No matter how complicated your designs are, now you can save cost and make it anywhere in the world with efforless management.</p>
+						</div><!--end carousel-caption-->
+					</div><!--end item-->
+				</div><!--carousel-inner-->
+
+				<!-- controls-->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!--end myCarousel -->
+
+			<div class="row" id="bigcallout">
+				<div class="col-12">
+
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						<h4>Success!</h4>
+						<p>You just made this element display by using Jquery.Click the "x" in top right corner to close this bad boy.</p>
+
+					</div><!--end alert-->
+
+					<!--Visible only on small devises -->
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class"glyphicon glyphicon-phone"></span>Give us a call</a>
+
+					</div><!--end well-small-->
+					<div class="well">
+						<div class="page-header">
+							<h1>Launching Angora <small>The birth of a new kind of PLM</small></h1>
+						</div><!--end page-header-->
+
+						<p class="lead">Visually create fashion techpacks and organize your product development from anywhere, anytime. </p>
+
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Click here to see video</a>
+						<a href="" class="btn btn-large btn-link">Or learn more</a>
+
+					</div><!--end well -->
+
+				</div><!--end col-12-->
+
+			</div><!--end bigCallout-->
+
+
+			<div class="row" id="featuresheading">
+				<div class="col-12">
+					<h2>More Features</h2>
+					<p class="lead">Pop-up slow-carb iPhone, PBR&amp;B kogi hoodie before they sold out.Pop-up slow-carb iPhone, PBR&amp;B kogi hoodie before they sold out.</p>
+
+				</div><!--end col-12-->
+
+			</div><!--end featuresheading-->
+
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Powerful Techpacks</h3>
+						</div><!--end features-->
+						<img src="images/Badges_html5.jpg" alt="HTML5" class="img-circle">
+
+						<p>Single-origin coffee ugh distillery cred, cronut Helvetica church-key heirloom food truck readymade craft beer next level artisan listicle meditation.</p>
+
+						<a href="" target="_black" class="btn btn-warning btn-block">Learn to create Techpack</a>
+					</div><!--end panel-->
+				</div><!-- end feature-->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Organize Development</h3>
+						</div><!--end features-->
+						<img src="images/Badges_css3.jpg" alt="CSS3" class="img-circle">
+
+						<p>Single-origin coffee ugh distillery cred, cronut Helvetica church-key heirloom food truck readymade craft beer next level artisan listicle meditation.</p>
+
+						<a href="" target="_black" class="btn btn-danger btn-block">Easy to Organize</a>
+					</div><!--end panel-->
+				</div><!-- end feature-->
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Effortless Collaboration</h3>
+						</div><!--end features-->
+						<img src="images/Badges_bootstrap.jpg" alt="Bootstrap 3" class="img-circle">
+
+						<p>Single-origin coffee ugh distillery cred, cronut Helvetica church-key heirloom food truck readymade craft beer next level artisan listicle meditation.</p>
+
+						<a href="" target="_black" class="btn btn-info btn-block">More Collaboration</a>
+					</div><!--end panel-->
+				</div><!-- end feature-->
+			</div><!--end features-->
+
+
+			<div class="row" id="moreinfo">
+				<div class="col-sm-6">
+					<h3>Techpacker Features</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Automated</a></li>
+							<li><a href="#tab2" data-toggle="tab">Real-time</a></li>
+							<li><a href="#tab3" data-toggle="tab">PDF</a></li>
+							<li><a href="#tab4" data-toggle="tab">Unlimited</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>More like our favorite surf spot</small></h4>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7384.983955833048!2d114.13210299999997!3d22.2593461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2shk!4v1421222120108" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+
+								<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress. Cronut pug meditation, brunch occupy McSweeney's wolf biodiesel lumbersexual letterpress twee Helvetica aesthetic. Schlitz McSweeney's bicycle rights, viral art party twee ethical flannel YOLO post-ironic small batch cliche. Paleo four loko Pitchfork polaroid.</p>
+
+								<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress.	</p>
+							</div><!-- end tab-pane-1 active-->
+							<div class="tab-pane" id="tab2">
+								<h4>A left Floated Picture <small>Using Placehold.it</small></h4>
+								<img src="http://placehold.it/140" class="thumbnail pull-left">
+								<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress. Cronut pug meditation, brunch occupy McSweeney's wolf biodiesel lumbersexual letterpress twee Helvetica aesthetic. Schlitz McSweeney's bicycle rights, viral art party twee ethical flannel YOLO post-ironic small batch cliche. Paleo four loko Pitchfork polaroid.</p>
+
+								<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress.	</p>
+
+								<hr>
+
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window</a>
+
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">A Modal Window</h4>
+											</div><!--end modal-header-->
+											<div class="modal-body">
+												<h4>Text in a Modal</h4>
+
+												<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.</p>
+
+												<h4>Popovers in modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it" data-content="I knew you would.">Don't click this button</a>
+
+												<h4>Tooltips in a modal</h4>
+												<a href="" data-original-title="tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Wohooo!" rel="tooltip">this one!</a>
+												<hr>
+												<p><small class="text-muted">This form doesn't do anything. Just a heads up	</small></p>
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Submit</button>
+														</div>
+													</div>
+												</form>
+											</div><!--end modal-body-->
+
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save Changes</button>
+
+											</div><!--end modal-footer-->
+										</div><!--end modal-content-->
+									</div><!--end modal-dialog-->
+								</div><!--end myModal-->
+
+
+							</div> <!--end tab-pane-2 -->
+							<div class="tab-pane" id="tab3">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>More like our favorite surf spot</small></h4>
+
+
+								<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress. Cronut pug meditation, brunch occupy McSweeney's wolf biodiesel lumbersexual letterpress twee Helvetica aesthetic. Schlitz McSweeney's bicycle rights, viral art party twee ethical flannel YOLO post-ironic small batch cliche. Paleo four loko Pitchfork polaroid.</p>
+
+								<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress.	</p>
+							</div><!-- end tab-pane-3 -->
+
+							<div class="tab-pane" id="tab4">
+								<h4>A left Floated Picture <small>Using Placehold.it</small></h4>
+								<img src="http://placehold.it/140" class="thumbnail pull-left">
+								<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress. Cronut pug meditation, brunch occupy McSweeney's wolf biodiesel lumbersexual letterpress twee Helvetica aesthetic. Schlitz McSweeney's bicycle rights, viral art party twee ethical flannel YOLO post-ironic small batch cliche. Paleo four loko Pitchfork polaroid.</p>
+
+								<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress.	</p>
+
+							</div><!-- end tab-pane-4 -->
+
+						</div><!--end tab-content-->
+					</div><!--end tabbable-->
+				</div><!--end col-sm-6-->
+
+				<div class="col-sm-6">
+					<h3>Everyone gets it <small> no training required.</small></h3>
+					<p>	Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.	</p>
+
+					<h4>Functions</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-heart"></span> User Friendly Experience</h4>
+							<p class"list-group-item-text">Letterpress Bushwick sustainable messenger bag retro direct trade kitsch selfies jean shorts.</p>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-lock"></span> Bank Like Security</h4>
+							<p class"list-group-item-text">Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.</p>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-calendar"></span> Time &amp; Acton Calender</h4>
+							<p class"list-group-item-text">Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro.</p>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-signal"></span>  Visual Reporting</h4>
+							<p class"list-group-item-text">Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.</p>
+						</a>
+					</div><!-- end list-group -->
+
+					<h4>Version 0.2 </h4>
+					<p>	We are developing lots of new features for our next version but it's a good time to tell us what features you need so we can include in our next version.</p>
+
+				</div><!--end col-sm-6 -->
+			</div><!--end moreinfo-->
+
+			<hr>
+
+			<div class="row" id="morecourses">
+				<div class="col-12">
+					<h3>AWARDS</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="PSD to HTML5 &amp; CSS3">
+
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup>$</sup>0</div>
+
+								<div class="caption">
+									<h3>Be the first to test Angora</h3>
+									<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.	</p>
+
+									<p><a href="#" class="btn btn-primary btn-small" target="_blank">Sign Up</a> <a href="#" target="_blank" class="btn btn-small btn-link">Learn More</a></p>
+							</div><!--end caption-->
+							</div><!-- end thumbnail -->
+						</div><!--end col-6 -->
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="Web Hosting 101">
+
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+
+								<div class="caption">
+									<h3>Try our older version here</h3>
+									<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts.	</p>
+									<p><a href="#" class ="btn btn-primary btn-small" target="_blank">Sign Up</a> <a href="#" target="_blank" class="btn btn-small btn-link">Learn More</a></p>
+								</div><!--end caption-->
+							</div><!-- end thumbnail -->
+						</div><!--end col-6 -->
+					</div><!--end thumbnail row -->
+				</div><!--end col-12 -->
+
+			</div><!--end morecourses-->
+
+		</div><!--end container-->
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2015 (Techpacker)</h6>
+					</div><!--end col-sm-2 -->
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable messenger bag retro direct trade kitsch selfies jean shorts. 8-bit cornhole 3 wolf moon biodiesel messenger bag crucifix. Bitters Banksy polaroid banh mi, forage lo-fi four loko master cleanse cred. Kitsch direct trade heirloom banh mi, farm-to-table cliche chillwave blog organic Vice Wes Anderson paleo meh letterpress.</p>
+					</div><!-- end col-sm-4 -->
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!--end col-sm-2 -->
+
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div> <!--end col-sm-2-->
+
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> By Techpacker</h6>
+					</div><!--end col-sm-2 -->
+				</div><!--end row -->
+			</div><!--end container -->
+		</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
